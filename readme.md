@@ -4,7 +4,7 @@ The objective of this article is to help understand the IBM Envizi ESG suite pla
 
 ## 1 What is Envizi 
 
-Envizi offers comprehensive data and analytics software to collect, manage and derive insights from sustainability data.
+IBM Envizi ESG suite offers comprehensive data and analytics software to collect, manage and derive insights from sustainability data.
 
 ### 1.1 Three pillars 
 
@@ -27,23 +27,11 @@ Envizi is a modular platform. The product framework consists of 9 modules with 3
 <img src="images/001-modules.png">
 
 
-## 2 ESG Data
-
-### 2.1 Emission data
-
-#### Scope 1, 2, 3
-
-### 2.2 Social Data
-
-### 2.3 Governance Data
-
-
-
-## 3 Data
+## 2 Data Management
 
 The organization's operations are distributed across different locations, regions, business units, departments, manufacturing sites, suppliers, subsidiaries, and more. Organization needs to gather data from all these operations and guarantee the access to these data at any given moment.
 
-### 3.1 Org Hierarchy
+### 2.1 Org Hierarchy
 
 Envizi facilitates the organization of data through a hierarchical structure, enabling the creation of groups, subgroups, locations, accounts, meters, records, and more.
 
@@ -58,7 +46,7 @@ Here is the organization hierarchy by Portfolio Groups.
 <img src="images/010-orghierarchy-3.png">
 
 
-### 3.1.1 Groups
+### 2.2 Groups
 
 Groups are a collection of locations used for reporting or data access.
 
@@ -75,23 +63,69 @@ Subgroups are created under a group.
 
 <img src="images/010-orghierarchy-4.png">
 
-### 3.1.2 Locations
+### 2.3 Locations
 
 Locations are used to describe buildings, properties, assets or sites within an Organization. An Organization can have multiple locations. Locations can also represent a virtual collection of account data.
 
-### 3.1.3 Account
+In the below screeshots shows that the Account is assoicated with a Location.
+
+### 2.4 Accounts
 
 Accounts are used capture, store and report data from the various resources of an organization such as electricity, water, transport and etc.
 
-### 3.1.4 Record
+It is configured at a location level. 
+Account is associated with specific specific `data type` and `account style`.
+
+The image shows the Data Type as `DIESEL TRANSPORT (MILES)` and Account style as `DIESEL TRANSPORT - MILES`
+<img src="images/112-account.png">
+
+### 2.5 Records
 
 Records represents the actual data from the resources. Ex: The electricity consumption of a particular account for the month.
 
-## 3.2 Data capture 
+The above image show the records associated with the account.
+
+### 2.6 Categories
+
+A Category in Envizi is grouping of data types.
+
+Your organization is setup by default with a set of categories that are useful for tracking and analyzing your data at an aggregated level.
+
+The below picture shows that there is a Category called `Electricity` that groups all the eletricity related data types here.
+
+<img src="images/113-datatype1.png">
+
+
+### 2.7 Data Type
+
+Data types in Envizi describe a single measure or activity. 
+
+The example data types are Electricity, Diesel, Natural Gas, Refrigerant R12, Water, Employees, Rail Shipping, Scope 3 emissions, Business Travel, Rental Car, Hotel Stays.
+
+Data type contains the primary unit of measure `cost` and `consumption`.
+
+Data type is assigned with some emissions scope (1/2/3/None). You can see in the above picture that each data type is assoicated with an scope.
+ 
+### 2.8  Account Styles
+
+Account Styles referes to the Data schema configured on top of a Data Type.
+
+Account Styles are configured per customer to provide flexibility to meet different data capture requirements.
+
+Account style defines the data fields (primary and secondary fields) to be captured 
+
+Already 600+ account styles are available for the data type Electricity [kWh]
+
+Here the primary field is `Distance Travelled (qty)` and secondary fields are `Cost` and etc.
+
+<img src="images/114-account-style.png">
+
+
+## 3 Data capture 
 
 In Envizi, you can create Group, Subgroup, Location, Accounts, Record and etc via several ways.
 
-### 3.2.1 Create Data via UI
+### 3.1 Create Data via UI
 
 You can create data via Envizi User Interface.
 
@@ -100,7 +134,7 @@ https://community.ibm.com/community/user/envirintel/blogs/jeya-gandhi-rajan-m1/2
 
 https://knowledgebase.envizi.com/home/manually-capturing-data-records
 
-### 3.2.2 Create Data via Universal Date Collector
+### 3.2 Create Data via Universal Date Collector
 
 You can create data via Universal Date Collector template available in excel.
 
@@ -111,51 +145,7 @@ https://knowledgebase.envizi.com/home/universal-account-setup-and-data-loading-p
 https://knowledgebase.envizi.com/home/data-flow-automation
 
 
-
-## 4 Data Types
-
-### 4.1 Data Type
-
-Data types in Envizi describe a single measure or activity.
-
-Examples of a data types are 
- 
-- Electricity
-- Diesel
-- Natural Gas 
-- Refrigerant R12 
-- Water 
-- Employees
-- Rail Shipping
-- Scope 3 emissions
-- Business Travel
-- Rental Car
-- Hotel Stays
-
-
-Using the data type, Envizi separates pieces of data from each other resources such as
-- Emission sources, 
-- Energy consumption, 
-- Energy production 
-- etc
-
-### 4.2 Categories
-
-A Category in Envizi is grouping of data types.
-
-Your organization is setup by default with a set of categories that are useful for tracking and analyzing your data at an aggregated level.
-
- 
-### 4.3  Account Styles
-
-### 4.4  Emission Factor
-
-
-Envizi has the flexibility to capture or report data in multiple units of measure, but in the Envizi database, all data is stored in a single unit of measure. 
-
-Data types are grouped into Categories for reporting and analysis at a more aggregated level. 
-
-## 5 Reports
+## 4 Reports
 
 There are 4 types of reports available in Envizi.
 - Dashboards
@@ -163,7 +153,7 @@ There are 4 types of reports available in Envizi.
 - Extract Reports
 - Envizi API
 	
-## 5.1 Dashboards
+## 4.1 Dashboards
 
 Dashboards are interactive pages that allow the reporting and display of data in a visual format.
 
@@ -176,15 +166,14 @@ Dashboards are available at all levels generally where there is a Summary page:
 
 <img src="images/100-dashboard-1.png">
 
+Several controls are available in Dashboard.
+- **Compare With:** Defines the compare period that the Current period is selected for:
+- **View As: Specifies the Unit of measure for the data in the dashboard. 
+- **Time slider: Dictates the Current period chosen to display. The time slider can be dragged left or right to cover the appropriate period. 
+- **Filter:** The filter funnel activates the filtering options available: Groups, Measures, Regions, Locations.
+- **Actions:** Activates the Email dashboard or Schedule a Dashboard options
 
-### Dashboard Controls
-- Compare With: Defines the compare period that the Current period is selected for:
-- View As: Specifies the Unit of measure for the data in the dashboard. 
-- Time slider: Dictates the Current period chosen to display. The time slider can be dragged left or right to cover the appropriate period. 
-- Filter: The filter funnel activates the filtering options available: Groups, Measures, Regions, Locations.
-- Actions: Activates the Email dashboard or Schedule a Dashboard options
-
-### 5.2 Reports
+### 4.2 Reports
 
 Envizi PowerReport is supercharged by Microsoft PowerBI, the world’s leading reporting and analytics platform. Envizi content powered by PowerReport provides a range of visual dashboards to support reporting.
 
@@ -202,30 +191,17 @@ In the base model the following standard and configurable reports are available.
 
 <img src="images/100-power-report.png">
 
-### 5.3 Extracting reports
+### 4.3 Extracting reports
 
-IBM Envizi reports allow users to specify a range of selection criteria such as:
+IBM Envizi reports allow users to specify a range of selection criteria to view the data in screen and download and to send the report in mail.
 
-- Choose from various delivery methods:
-o	Display Report On Screen
-o	Create Report and E-mail it now
-o	Schedule Report and E-mail it later
-- Choose Groups (any level)
-- Choose Locations (one or all)
-- Choose Regions (certain reports)
-- Choose Utilities (certain reports)
-- Specify report time period/end date
-- Choosing “Create Report and E-mail it now” adds:
-o	Formatted as (CSV, PDF, XLSX)
-o	Mail to (select recipient login)
-
-- Choosing “Schedule Report and E-mail it later” also adds:
-- Schedule (Daily, Weekly, Monthly, Quarterly, Yearly, etc.)
-o	Starting on (date of schedule begin)
+- Choose from various delivery methods (screen, email)
+- Choose Groups, locations, Regions, Utilities, report time period/end date
+- Choosing `Create Report and E-mail it now` in CSV, PDF, XLSX format
+- Choosing `Schedule Report and E-mail it later` also adds the Daily, Weekly, ...etc. schedule.
 
 Click Submit to run the report based on the selected parameters.
 <img src="images/100-extract-report-2.png">
-
 
 ### 5.4 API
 
