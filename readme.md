@@ -173,7 +173,7 @@ Several controls are available in Dashboard.
 - **Filter:** The filter funnel activates the filtering options available: Groups, Measures, Regions, Locations.
 - **Actions:** Activates the Email dashboard or Schedule a Dashboard options
 
-### 4.2 Reports
+### 4.2 Power Reports
 
 Envizi PowerReport is supercharged by Microsoft PowerBI, the world’s leading reporting and analytics platform. Envizi content powered by PowerReport provides a range of visual dashboards to support reporting.
 
@@ -203,7 +203,7 @@ IBM Envizi reports allow users to specify a range of selection criteria to view 
 Click Submit to run the report based on the selected parameters.
 <img src="images/100-extract-report-2.png">
 
-### 5.4 API
+### 4.4 API
 
 The Envizi API promotes sharing of data from the Envizi platform and allows users to access and retrieve data from Envizi directly through to compatible third-party software, such as Microsoft Excel, Tableau or Power BI, without the need to log in to Envizi's main user interface. 
 
@@ -222,7 +222,7 @@ https://developer.ibm.com/articles/use-apis-to-expose-envizi-data-for-external-s
 https://knowledgebase.envizi.com/home/envizi-api-overview
  
 
-## 6 Disclosures
+## 5 Disclosures
 
 During the ESG reporting season, sustainability manager manages multiple ESG disclosure projects concurrently. The volume of data that needs to be complied and reviewed from multiple teams and stakeholders across the business is immense. And the stakes are high: reports need to be financial grade, need to be fully auditable, and the VP of Sustainability needs to sign off before disclosures are published.
 
@@ -230,7 +230,7 @@ In Envizi, Sustainability manager can efficiently organize the people, processes
 
 Through pre-configured templates and reports, as well as the ability to create custom disclosures, Envizi supports streamlining disclosures to a number of different frameworks.
 
-### 6.1 Sustainability Reporting Manager (SRM)
+### 5.1 Sustainability Reporting Manager (SRM)
 
 The Envizi Sustainability Reporting Manager is a tool that pulls together Envizi's quantitative data, attachments, web links, and response methodologies to facilitate the management of ESG data and the formulation of final responses.
 
@@ -240,14 +240,14 @@ The SRM tool encompasses a wide range of ESG Frameworks, including `TCFD, SASB, 
 
 <img src="images/110-srm.png">
 
-### 6.2 GRESB and CDP
+### 5.2 GRESB and CDP
 
 Though Envizi supports most widely used frameworks comprehensively, there may be certain frameworks that are not included. In such instances, Envizi has developed alternative tools and reports to meet the requirements of specific frameworks, as is the case with `GRESB` and `CDP` at present.
  
 <img src="images/111-cdp.png">
 
 
-## 7 De-Carbonization
+## 6 De-Carbonization
 
 ### 7.1 Target setting and Tracking
 
