@@ -1,18 +1,14 @@
 # Envizi Learning Journey
+In this article, we will explore the fascinating learning journey of IBM Envizi ESG suite. 
 
-The objective of this article is to help understand the IBM Envizi ESG suite platform. This will be the first step in the learning journey of Envizi. 
+## 1. Envizi 
+IBM Envizi ESG suite offers comprehensive data and analytics software to collect, manage and derive insights from your environmental, social and governance (ESG) sustainability data.
 
-## 1 What is Envizi 
-
-IBM Envizi ESG suite offers comprehensive data and analytics software to collect, manage and derive insights from sustainability data.
-
-### 1.1 Three pillars 
-
-There are 3 pillars to how Envizi can help with the key challenges that are faced by many organizations with their sustainability journey.
+### 1.1 Three pillars of Envizi
+Envizi is composed of three pillars to helps clients at every step of their sustainability journey, whether they need to consolidate their data, streamline reporting, identify efficiency and emission reduction opportunities, or inform business strategy. 
 
 #### Data Foundation
-Build data foundation by helping clients to build a single system of that delivers auditable, financial grade sustainability data.
-Clients can automatically capture any data required for reporting and consolidate different ESG data across the organization into a single system. 
+Clients may have already been using a data management platform, Excel spreadsheets, or other internal systems, but are still lacking a strong data foundation. Envizi provides a rich set of data management tools to ensure quality data, clients can automatically capture any data required for reporting and decision-making and consolidate all sustainability and energy data from across an organization in a robust and auditable single system of record that allows clients to report with confidence
 
 #### Reporting and Disclosure
 Reporting to internal and external stakeholders and dealing with multiple frameworks can be challenging. Envizi provides a suite of reporting tools, such as dashboards and reporting templates that help users to streamline reporting and disclosure. 
@@ -21,7 +17,6 @@ Reporting to internal and external stakeholders and dealing with multiple framew
 By using the insights provided on the platform, users are empowered to make informed data-driven decisions to unlocking pathways to decarbonization goals.
 
 ### 1.2 Modules
-
 Envizi is a modular platform. The product framework consists of 9 modules with 3 solution pillars, underpinned by the data management layer. The modular and scalable functionality ensures clients current needs are met now and can scale up as needed. 
 
 <img src="images/001-modules.png">
@@ -29,22 +24,14 @@ Envizi is a modular platform. The product framework consists of 9 modules with 3
 
 ## 2 Data Management
 
-The organization's operations are distributed across different locations, regions, business units, departments, manufacturing sites, suppliers, subsidiaries, and more. Organization needs to gather data from all these operations and guarantee the access to these data at any given moment.
+The organization's operations are distributed across different locations, regions, business units, departments, manufacturing sites, suppliers, subsidiaries, and more. Organization needs to gather data from all these operations and guarantee the access to these data at any given moment. Lets see how Envizi is organizing the data.
 
 ### 2.1 Org Hierarchy
 
 Envizi facilitates the organization of data through a hierarchical structure, enabling the creation of groups, subgroups, locations, accounts, meters, records, and more.
 
-Here is the organization hierarchy with by Regions.
+Here is the organization hierarchy that shows `Location by Region`, `Classification` and `Portfolio` Groups.
 <img src="images/010-orghierarchy-1.png">
-
-Here is the organization hierarchy by Classification Groups.
-<img src="images/010-orghierarchy-2.png">
-
-Here is the organization hierarchy by Portfolio Groups.
-
-<img src="images/010-orghierarchy-3.png">
-
 
 ### 2.2 Groups
 
@@ -59,19 +46,23 @@ Groups are two types. The previous 2 images shows both the groups.
 **Portfolio :** Portfolio type groups to reflect secondary reporting structures. 
 A portfolio group may include some or all locations of varying report percentage allocations.
 
-Subgroups are created under a group. 
+Subgroups are created under any group. 
 
-<img src="images/010-orghierarchy-4.png">
+Here you can see the `Classification` and `Portfolio` Groups.
+<img src="images/010-orghierarchy-2.png">
+
+You can see the Group, Subgroup, location, account and records in the Org Hierarchy here.
+<img src="images/010-orghierarchy-3.png">
 
 ### 2.3 Locations
 
 Locations are used to describe buildings, properties, assets or sites within an Organization. An Organization can have multiple locations. Locations can also represent a virtual collection of account data.
 
-In the below screeshots shows that the Account is assoicated with a Location.
+The below screeshots shows that the Account is assoicated with a Location.
 
 ### 2.4 Accounts
 
-Accounts are used capture, store and report data from the various resources of an organization such as electricity, water, transport and etc.
+Accounts are used to capture, store and report data from the various resources of an organization such as electricity, water, transport and etc.
 
 It is configured at a location level. 
 Account is associated with specific specific `data type` and `account style`.
@@ -145,6 +136,14 @@ https://knowledgebase.envizi.com/home/universal-account-setup-and-data-loading-p
 https://knowledgebase.envizi.com/home/data-flow-automation
 
 
+### 3.3 Bulk Creation and Scheduling of Data Capture Issues
+
+Envizi provides Data Capture Issues as a way to request manual data capture for accounts. By using Data Capture Issues, you get the benefits of Envizi’s Issue Tracking and workflow tools to be able to easily track responses to data capture requests and follow up overdue requests.
+
+Refer the documentation
+https://knowledgebase.envizi.com/home/data-capture-issues
+
+
 ## 4 Reports
 
 There are 4 types of reports available in Envizi.
@@ -167,17 +166,17 @@ Dashboards are available at all levels generally where there is a Summary page:
 <img src="images/100-dashboard-1.png">
 
 Several controls are available in Dashboard.
-- **Compare With:** Defines the compare period that the Current period is selected for:
-- **View As: Specifies the Unit of measure for the data in the dashboard. 
-- **Time slider: Dictates the Current period chosen to display. The time slider can be dragged left or right to cover the appropriate period. 
-- **Filter:** The filter funnel activates the filtering options available: Groups, Measures, Regions, Locations.
-- **Actions:** Activates the Email dashboard or Schedule a Dashboard options
+
+- Compare With current period with other periods.
+- View As specifies the Unit of measure for the data in the dashboard. 
+- Time slider indicates the current period chosen to display.
+- The filter funnel activates the filtering options available: Groups, Measures, Regions, Locations.
+- Actions activates the Email dashboard or Schedule a Dashboard options
 
 ### 4.2 Power Reports
+Envizi PowerReport is supercharged by Microsoft PowerBI. Envizi content powered by PowerReport provides a range of visual dashboards to support reporting.
 
-Envizi PowerReport is supercharged by Microsoft PowerBI, the world’s leading reporting and analytics platform. Envizi content powered by PowerReport provides a range of visual dashboards to support reporting.
-
-In the base model the following standard and configurable reports are available.
+Some of the standard and configurable reports are listed here.
 
 #### Standard Content
 - Sustainability (Executive Report)
@@ -195,6 +194,7 @@ In the base model the following standard and configurable reports are available.
 
 IBM Envizi reports allow users to specify a range of selection criteria to view the data in screen and download and to send the report in mail.
 
+Extracting reports provides the following options.
 - Choose from various delivery methods (screen, email)
 - Choose Groups, locations, Regions, Utilities, report time period/end date
 - Choosing `Create Report and E-mail it now` in CSV, PDF, XLSX format
@@ -253,8 +253,6 @@ Envizi has several modules and tools to help the organziations decarbonization s
 
 ### 6.1 Target setting and Tracking
 
-Emission vs Production metrics
-
 Organizations may need to track and report their actual emissions against targets over time.
 
 Envizi helps to capture and track sustainability performance targets at any level of your organization with the comprehensive target setting and tracking tool.
@@ -269,8 +267,6 @@ Also it improve the accountability for results at different levels of your organ
 <img src="images/200-target-setting-rate-analysis.png">
 
 ### 6.2 Building Ratings + Benchmarks
-
-GRESB Group Review
 
 This tool helps to capture building attribute and utility data, calculate ratings, and benchmark and track building performance in one place.
 
@@ -304,8 +300,6 @@ Moreover, it delivers comprehensive utility performance analysis and benchmarkin
 <img src="images/221-utility-bill.png">
 
 ### 6.5 Interval Meter Analytics
-
-Interval Chart Builder
 
 This tool automates the capture of high-resolution meter data and leverage sophisticated analytics and workflow tools, so your organization can drive efficiency and decarbonize across facilities.
 
