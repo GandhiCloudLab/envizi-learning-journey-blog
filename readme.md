@@ -58,7 +58,7 @@ You can see the Group, Subgroup, location, account and records in the Org Hierar
 
 Locations are used to describe buildings, properties, assets or sites within an Organization. An Organization can have multiple locations. Locations can also represent a virtual collection of account data.
 
-The below screeshots shows that the Account is assoicated with a Location.
+The below screenshots shows that the Account is associated with a Location.
 
 ### 2.4 Accounts
 
@@ -82,7 +82,7 @@ A Category in Envizi is grouping of data types.
 
 Your organization is setup by default with a set of categories that are useful for tracking and analyzing your data at an aggregated level.
 
-The below picture shows that there is a Category called `Electricity` that groups all the eletricity related data types here.
+The below picture shows that there is a Category called `Electricity` that groups all the electricity related data types here.
 
 <img src="images/113-datatype1.png">
 
@@ -95,11 +95,11 @@ The example data types are Electricity, Diesel, Natural Gas, Refrigerant R12, Wa
 
 Data type contains the primary unit of measure `cost` and `consumption`.
 
-Data type is assigned with some emissions scope (1/2/3/None). You can see in the above picture that each data type is assoicated with an scope.
+Data type is assigned with some emissions scope (1/2/3/None). You can see in the above picture that each data type is associated with an scope.
  
 ### 2.8  Account Styles
 
-Account Styles referes to the Data schema configured on top of a Data Type.
+Account Styles refers to the Data schema configured on top of a Data Type.
 
 Account Styles are configured per customer to provide flexibility to meet different data capture requirements.
 
