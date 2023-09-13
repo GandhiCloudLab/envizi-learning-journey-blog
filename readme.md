@@ -249,11 +249,74 @@ Though Envizi supports most widely used frameworks comprehensively, there may be
 
 ## 6 De-Carbonization
 
-### 7.1 Target setting and Tracking
+Envizi has several modules and tools to help the organziations decarbonization strategy. 
 
-## 8 Others
-### 8.1 Audit trail
+### 6.1 Target setting and Tracking
+
+Emission vs Production metrics
+
+Organizations may need to track and report their actual emissions against targets over time.
+
+Envizi helps to capture and track sustainability performance targets at any level of your organization with the comprehensive target setting and tracking tool.
+
+Capture and track targets can be done at different levels in the organization.
+Multiple types of targets, such as energy, cost, emissions or intensity can be set.
+Intuitive dashboards and reports to compare performance against targets are available.
+
+This tool helps to track performance more accurately and access results when you need them and make more informed decisions.
+Also it improve the accountability for results at different levels of your organization and engage your people in sustainability performance.
+
+<img src="images/200-target-setting-rate-analysis.png">
+
+### 6.2 Building Ratings + Benchmarks
+
+GRESB Group Review
+
+This tool helps to capture building attribute and utility data, calculate ratings, and benchmark and track building performance in one place.
+
+This helps the organization to build robust way of reporting to external ratings frameworks such as GRESB, ENERGY STAR and NABERS.
+
+<img src="images/250-energy-star.png">
+
+### 6.3 Sustainability Program Tracking
+
+Organizations who are planning or implementing a broad range of sustainability programs as part of their overall decarbonization strategy.
+
+This tools helps the organization’s sustainability programs in a consistent and transparent manner to track progress, verify results and optimize investment decisions.
+
+It can capture and report all sustainability project data in a central system including costs, savings estimates, project timelines, baseline data and more.
+
+<img src="images/210-programs-1.png">
+
+<img src="images/210-programs-2.png">
 
 
-### 8.2 Modules
+### 6.4 Utility Bill Analytics
 
+Organizations with energy-intensive facilities which have a need to reduce utility cost, consumption, and emissions.
+
+Utility billing data is Leveraged inside a powerful analytics engine to analyze and control energy cost and consumption, identify anomalies, and inform decision making for energy efficiency.
+
+Envizi offers both standard and customizable connectors designed for automating the capture of utility bill data, encompassing both total cost and consumption metrics. 
+It provides an extensive library of emissions factors specific to various utilities. 
+Moreover, it delivers comprehensive utility performance analysis and benchmarking through interactive dashboards.
+
+<img src="images/221-utility-bill.png">
+
+### 6.5 Interval Meter Analytics
+
+Interval Chart Builder
+
+This tool automates the capture of high-resolution meter data and leverage sophisticated analytics and workflow tools, so your organization can drive efficiency and decarbonize across facilities.
+
+This tool contains the following features.
+- Rules-based anomaly detection.
+- Integrated issue tracking and workflow tools.
+- Energy intensity benchmarking tools.
+
+This tool helps to 
+- Minimize energy waste.
+- Identify more savings opportunities.
+- Drive higher efficiency and accelerate decarbonization.
+
+<img src="images/240-interval-utility-performance-management.png">
