@@ -126,9 +126,9 @@ https://community.ibm.com/community/user/envirintel/blogs/jeya-gandhi-rajan-m1/2
 
 https://knowledgebase.envizi.com/home/manually-capturing-data-records
 
-### 3.2 Create Data via Universal Date Collector
+### 3.2 Create Data via Universal Data Collector
 
-You can create data via Universal Date Collector template available in excel.
+You can create data via Universal Data Collector template available in excel.
 
 Refer the documentation
 
