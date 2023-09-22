@@ -31,9 +31,10 @@ The organization's operations are distributed across different locations, region
 Envizi facilitates the organization of data through a hierarchical structure, enabling the creation of groups, subgroups, locations, accounts, meters, records, and more.
 
 Here is the organization hierarchy that shows `Location by Region`, `Classification` and `Portfolio` Groups.
+
 <img src="images/010-orghierarchy-1.png">
 
-### 2.2 Groups
+### 2.2 Groups
 
 Groups are a collection of locations used for reporting or data access.
 
