@@ -1,5 +1,6 @@
 # Envizi Learning Journey
-In this article, we will explore the fascinating learning journey of IBM Envizi ESG suite. 
+
+This blog gives you an overview about IBM Envizi ESG Suite and how it helps the Sustainability Manager of an organization to simplify the capture, consolidation, management, analysis and reporting of thier environmental, social and governance (ESG) data.
 
 ## 1. Envizi 
 IBM Envizi ESG suite offers comprehensive data and analytics software to collect, manage and derive insights from your environmental, social and governance (ESG) sustainability data.
