@@ -3,9 +3,10 @@
 This article gives you an overview about IBM Envizi ESG Suite and how it helps the Sustainability Manager of an organization to simplify the capture, consolidation, management, analysis and reporting of their environmental, social and governance (ESG) data.
 
 #### Authors
-[Jeya Gandhi Rajan M](https://community.ibm.com/community/user/envirintel/people/jeya-gandhi-rajan-m1), [Indira Kalagara](https://community.ibm.com/community/user/envirintel/people/indira-kumari-kalagara1), [Mamatha Venkatesh](https://community.ibm.com/community/user/automation/people/mamatha-venkatesh)
+[Jeya Gandhi Rajan M](https://community.ibm.com/community/user/envirintel/people/jeya-gandhi-rajan-m1), [Indira Kalagara](https://community.ibm.com/community/user/envirintel/people/indira-kumari-kalagara1)
 
 ## 1. Envizi 
+
 [IBM Envizi ESG Suite](https://www.ibm.com/products/envizi) is a SaaS based ESG software.  
 
 IBM Envizi ESG suite offers comprehensive data and analytics software to collect, manage and derive insights from your environmental, social and governance (ESG) sustainability data.
@@ -25,8 +26,9 @@ By using the insights provided on the platform, users are empowered to make info
 ### 1.2 Modules
 Envizi is a modular platform. The product framework consists of 9 modules with 3 solution pillars, underpinned by the data management layer. The modular and scalable functionality ensures clients current needs are met now and can scale up as needed. 
 
-<img src="images/001-modules.png">
+ ![](/labs/images/001-modules.png)
 
+![](/labs/images/001-modules.png)
 
 ## 2 Data Management
 
@@ -37,10 +39,9 @@ The organization's operations are distributed across different locations, region
 Envizi facilitates the organization of data through a hierarchical structure, enabling the creation of groups, subgroups, locations, accounts, meters, records, and more.
 
 Here is the organization hierarchy that shows `Location by Region`, `Classification` and `Portfolio` Groups.
+![](/labs/images/010-orghierarchy-1.png)
 
-<img src="images/010-orghierarchy-1.png">
-
-### 2.2 Groups
+### 2.2 Groups
 
 Groups are a collection of locations used for reporting or data access.
 
@@ -56,10 +57,10 @@ A portfolio group may include some or all locations of varying report percentage
 Subgroups are created under any group. 
 
 Here you can see the `Classification` and `Portfolio` Groups.
-<img src="images/010-orghierarchy-2.png">
+![](/labs/images/010-orghierarchy-2.png)
 
 You can see the Group, Subgroup, location, account and records in the Org Hierarchy here.
-<img src="images/010-orghierarchy-3.png">
+![](/labs/images/010-orghierarchy-3.png)
 
 ### 2.3 Locations
 
@@ -75,7 +76,7 @@ It is configured at a location level.
 Account is associated with specific specific `data type` and `account style`.
 
 The image shows the Data Type as `DIESEL TRANSPORT (MILES)` and Account style as `DIESEL TRANSPORT - MILES`
-<img src="images/112-account.png">
+![](/labs/images/112-account.png)
 
 ### 2.5 Records
 
@@ -91,7 +92,7 @@ Your organization is setup by default with a set of categories that are useful f
 
 The below picture shows that there is a Category called `Electricity` that groups all the electricity related data types here.
 
-<img src="images/113-datatype1.png">
+![](/labs/images/113-datatype1.png)
 
 
 ### 2.7 Data Type
@@ -116,7 +117,7 @@ Already 600+ account styles are available for the data type Electricity [kWh]
 
 Here the primary field is `Distance Travelled (qty)` and secondary fields are `Cost` and etc.
 
-<img src="images/114-account-style.png">
+![](/labs/images/114-account-style.png)
 
 
 ## 3 Data capture 
@@ -170,7 +171,7 @@ Dashboards are available at all levels generally where there is a Summary page:
 - Account
 - Meter
 
-<img src="images/100-dashboard-1.png">
+![](/labs/images/100-dashboard-1.png)
 
 Several controls are available in Dashboard.
 
@@ -195,7 +196,7 @@ Some of the standard and configurable reports are listed here.
 - CDP Climate Report
 - Scope 3 Emissions
 
-<img src="images/100-power-report.png">
+![](/labs/images/100-power-report.png)
 
 ### 4.3 Extracting reports
 
@@ -208,7 +209,7 @@ Extracting reports provides the following options.
 - Choosing `Schedule Report and E-mail it later` also adds the Daily, Weekly, ...etc. schedule.
 
 Click Submit to run the report based on the selected parameters.
-<img src="images/100-extract-report-2.png">
+![](/labs/images/100-extract-report-2.png)
 
 ### 4.4 API
 
@@ -245,13 +246,13 @@ The SRM offers up-to-date guidance on best practices to facilitate the completio
 
 The SRM tool encompasses a wide range of ESG Frameworks, including `TCFD, SASB, GRI, SFDR, UN SDGs, INREV, EPRA, SEC Climate Proposal, EU Taxonomy, PRI, and BRSR`.
 
-<img src="images/110-srm.png">
+![](/labs/images/110-srm.png)
 
 ### 5.2 GRESB and CDP
 
 Though Envizi supports most widely used frameworks comprehensively, there may be certain frameworks that are not included. In such instances, Envizi has developed alternative tools and reports to meet the requirements of specific frameworks, as is the case with `GRESB` and `CDP` at present.
  
-<img src="images/111-cdp.png">
+![](/labs/images/111-cdp.png)
 
 
 ## 6 De-Carbonization
@@ -271,7 +272,7 @@ Intuitive dashboards and reports to compare performance against targets are avai
 This tool helps to track performance more accurately and access results when you need them and make more informed decisions.
 Also it improve the accountability for results at different levels of your organization and engage your people in sustainability performance.
 
-<img src="images/200-target-setting-rate-analysis.png">
+![](/labs/images/200-target-setting-rate-analysis.png)
 
 ### 6.2 Building Ratings + Benchmarks
 
@@ -279,7 +280,7 @@ This tool helps to capture building attribute and utility data, calculate rating
 
 This helps the organization to build robust way of reporting to external ratings frameworks such as GRESB, ENERGY STAR and NABERS.
 
-<img src="images/250-energy-star.png">
+![](/labs/images/250-energy-star.png)
 
 ### 6.3 Sustainability Program Tracking
 
@@ -289,9 +290,9 @@ This tools helps the organization’s sustainability programs in a consistent an
 
 It can capture and report all sustainability project data in a central system including costs, savings estimates, project timelines, baseline data and more.
 
-<img src="images/210-programs-1.png">
+![](/labs/images/210-programs-1.png)
 
-<img src="images/210-programs-2.png">
+![](/labs/images/210-programs-2.png)
 
 
 ### 6.4 Utility Bill Analytics
@@ -304,7 +305,7 @@ Envizi offers both standard and customizable connectors designed for automating 
 It provides an extensive library of emissions factors specific to various utilities. 
 Moreover, it delivers comprehensive utility performance analysis and benchmarking through interactive dashboards.
 
-<img src="images/221-utility-bill.png">
+![](/labs/images/221-utility-bill.png)
 
 ### 6.5 Interval Meter Analytics
 
@@ -320,7 +321,7 @@ This tool helps to
 - Identify more savings opportunities.
 - Drive higher efficiency and accelerate decarbonization.
 
-<img src="images/240-interval-utility-performance-management.png">
+![](/labs/images/240-interval-utility-performance-management.png)
 
 ### Conclusion
 
