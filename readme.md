@@ -121,35 +121,148 @@ Here the primary field is `Distance Travelled (qty)` and secondary fields are `C
 
 ## 3 Data capture 
 
-In Envizi, you can create Group, Subgroup, Location, Accounts, Record and etc via several ways.
+There are several ways available in Envizi to create Group, Subgroup, Location, Account and Record (Data). 
+
 
 ### 3.1 Create Data via UI
 
-You can create data via Envizi User Interface.
+Using Envizi User Interface the data capture can be done.
 
-Refer the documentations
+#### Create Group
+
+1. Click on `Manage > Groups` 
+<img src="images/01-group1.png">
+
+It shows the Groups page.
+
+2. Click on `Create New Group` button.
+
+<img src="images/01-group2.png">
+
+3. Fill in the details as below. 
+
+- Group Type :  `Classification`
+- Belongs To : The Org name of the account. Here `Demo Corp D1`
+- Name :  Give any name for the Group. Ex: `G1-Telco`
+- Report Percent :  100
+
+4. Click on `Save` button.
+<img src="images/01-group3.png">
+
+A new Group called `G1-Telco` gets created.
+
+#### Create Location
+
+Location can be created by clicking on `Manage > Location`.
+
+
+#### Create Account
+
+Account can be created by clicking on `Manage > Account` 
+
+
+#### Create Records (Data)
+
+1. Select the account from the left panel. 
+
+<img src="images/06-load-account-data11.png">
+
+Account summary get displayed as below.
+
+2. Click on `Track > Records` 
+
+<img src="images/06-load-account-data12.png">
+
+3. Click on `Capture > Data` 
+
+<img src="images/06-load-account-data13.png">
+
+4. Fill in the details as below. 
+- Start Period : Enter the starting period of the data
+- End Period : Enter the ending period of the data
+- Total Electricity :  Enter the total electricity consumed
+- Total Cost :  Enter the total cost
+
+The total value would split across each month available in between the given period.
+
+5. Click on `Save` button.
+
+<img src="images/06-load-account-data14.png">
+
+The record should be saved successfuly.
+
+For the detailed explanations refer the documentation
 https://community.ibm.com/community/user/envirintel/blogs/jeya-gandhi-rajan-m1/2023/04/04/create-orghierarchy-and-load-data-in-envizi-via-ui
-
-https://knowledgebase.envizi.com/home/manually-capturing-data-records
 
 ### 3.2 Create Data via Universal Data Collector
 
-You can create data via Universal Data Collector template available in excel.
+Envizi allows to Create Group, Location, Account and Records via the excel file upload.
 
-Refer the documentation
+#### Create Groups and Locations
 
-https://knowledgebase.envizi.com/home/universal-account-setup-and-data-loading-process
+Let us create groups and locations.
 
-https://knowledgebase.envizi.com/home/data-flow-automation
+1. Download the sample file [Envizi_SetupConfig_G3.xlsx](./files/Envizi_SetupConfig_G3.xlsx). The content looks like this.
+<img src="images/image-11.png">
 
+2. Update the file as per your requirement.
+
+3. Click on `Manage > Upload files` to upload the file.
+
+The file get processed and the Group and Locations gets created.
+
+#### Account Setup and Data Load
+
+Let us create accounts and data.
+
+Need to download the Template file from Envizi Report.
+
+1. Search for `Account Setup and Data Load` in Reports
+
+<img src="images/image-111.png">
+
+2. Open the report
+
+<img src="images/image-112.png">
+
+3. Choose the following 
+
+- Filter By #1:  Export selected locations with or without records
+- Filter By #2:  Choose an account style as per your need
+- Starting with: Choose some start date from which data exists in your envizi environment.
+
+4. Click on `Submit`
+
+<img src="images/image-113.png">
+
+Report is displayed on the screen.
+
+5. Click on `DOWNLOAD AS CSV`
+
+<img src="images/image-114.png">
+
+You may get the csv file as like this.
+
+<img src="images/image-115.png">
+
+6. Rename the downloaded file into `Account_Setup_and_Data_Load_xxxxx.csv`
+
+7. Remove the unwanted records
+
+8. Add or update as per your requirement. 
+
+9. Click on `Manage > Upload files` to upload the file.
+
+The file get processed and the Accounts and data gets created.
 
 ### 3.3 Bulk Creation and Scheduling of Data Capture Issues
 
-Envizi provides Data Capture Issues as a way to request manual data capture for accounts. By using Data Capture Issues, you get the benefits of Envizi’s Issue Tracking and workflow tools to be able to easily track responses to data capture requests and follow up overdue requests.
+Envizi provides Data Capture Issues as a way to request manual data capture for accounts.
 
-Refer the documentation
-https://knowledgebase.envizi.com/home/data-capture-issues
-
+For each data capture activity, users will be notified by e-mail. 
+Clicking on the `View Issue` button in the e-mail brings up a browser window with details of this particular data capture item. 
+The user can update the item.
+Clicking on the `Capture Data` button brings up the survey to complete.
 
 ## 4 Reports
 
