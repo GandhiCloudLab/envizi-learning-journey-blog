@@ -28,6 +28,28 @@ Envizi is a modular platform. The product framework consists of 9 modules with 3
 <img src="images/001-modules.png">
 
 
+The above picture shows the all the 9 modules. Here is the description about the same.
+
+**Scope 1, 2 GHG Reporting + Accounting**: Take emissions calculations out of spreadsheets with an extensive platform built on the GHG Protocol, enabling you to prepare Scope 1 and 2 data for compliance or voluntary emissions reporting frameworks.
+
+**Scope 3 GHG Reporting + Accounting**: Calculate Scope 3 upstream and downstream GHG emissions across your organization using all methods supported by the GHG Protocol including spend-based, average-data, hybrid and supplier-specific.
+
+**Target Setting & Tracking**: Capture and track sustainability performance targets at any level of your organization with this comprehensive target setting and tracking tool.
+
+**ESG Reporting Frameworks**: Upgrade your ESG data from spreadsheets into a robust platform which is finance-grade so your organization can meet reporting requirements.
+
+**Building Ratings + Benchmarks**: Capture building attribute and utility data, calculate ratings, and benchmark and track building performance in one place.
+
+**Risk + Materiality Assessment**: Analyze ESG performance metrics from your value chain stakeholders to measure their ESG performance and benchmark them with others.
+
+**Value Chain Reporting**: A single portal to easily and securely collect ESG metrics from across your value chain to ease the reporting process.
+
+**Utility Bill Analytics**: Leverage utility billing data inside a powerful analytics engine to analyze and control energy cost and consumption, identify anomalies, and inform decision making for energy efficiency.
+
+**Interval Meter Analytics**: Automate the capture of high-resolution meter data and leverage sophisticated analytics and workflow tools, so your organization can drive efficiency and decarbonize across facilities.
+
+**Sustainability Program Tracking**: Manage your organization’s sustainability programs in a consistent and transparent manner to track progress, verify results and optimize investment decisions.
+
 ## 2 Data Management
 
 The organization's operations are distributed across different locations, regions, business units, departments, manufacturing sites, suppliers, subsidiaries, and more. Organization needs to gather data from all these operations and guarantee the access to these data at any given moment. Lets see how Envizi is organizing the data.
@@ -153,17 +175,16 @@ A new Group called `G1-Telco` gets created.
 
 #### Create Location
 
-Location can be created by clicking on `Manage > Location`.
+Similarly location can be created by clicking on `Manage > Location`.
 
 
 #### Create Account
 
-Account can be created by clicking on `Manage > Account` 
-
+Similarly account can be created by clicking on `Manage > Account` 
 
 #### Create Records (Data)
 
-1. Select the account from the left panel. 
+1. Select an account from the left panel. 
 
 <img src="images/06-load-account-data11.png">
 
@@ -189,7 +210,7 @@ The total value would split across each month available in between the given per
 
 <img src="images/06-load-account-data14.png">
 
-The record should be saved successfuly.
+The record should be saved successfully.
 
 For the detailed explanations refer the documentation
 https://community.ibm.com/community/user/envirintel/blogs/jeya-gandhi-rajan-m1/2023/04/04/create-orghierarchy-and-load-data-in-envizi-via-ui

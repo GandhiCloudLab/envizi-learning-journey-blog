@@ -26,9 +26,30 @@ By using the insights provided on the platform, users are empowered to make info
 ### 1.2 Modules
 Envizi is a modular platform. The product framework consists of 9 modules with 3 solution pillars, underpinned by the data management layer. The modular and scalable functionality ensures clients current needs are met now and can scale up as needed. 
 
- ![](/labs/images/001-modules.png)
-
 ![](/labs/images/001-modules.png)
+
+The above picture shows the all the 9 modules. Here is the description about the same.
+
+**Scope 1, 2 GHG Reporting + Accounting** : Take emissions calculations out of spreadsheets with an extensive platform built on the GHG Protocol, enabling you to prepare Scope 1 and 2 data for compliance or voluntary emissions reporting frameworks.
+
+**Scope 3 GHG Reporting + Accounting** : Calculate Scope 3 upstream and downstream GHG emissions across your organization using all methods supported by the GHG Protocol including spend-based, average-data, hybrid and supplier-specific.
+
+**Target Setting & Tracking** : Capture and track sustainability performance targets at any level of your organization with this comprehensive target setting and tracking tool.
+
+**ESG Reporting Frameworks** : Upgrade your ESG data from spreadsheets into a robust platform which is finance-grade so your organization can meet reporting requirements.
+
+**Building Ratings + Benchmarks** : Capture building attribute and utility data, calculate ratings, and benchmark and track building performance in one place.
+
+**Risk + Materiality Assessment** : Analyze ESG performance metrics from your value chain stakeholders to measure their ESG performance and benchmark them with others.
+
+**Value Chain Reporting** : A single portal to easily and securely collect ESG metrics from across your value chain to ease the reporting process.
+
+**Utility Bill Analytics** : Leverage utility billing data inside a powerful analytics engine to analyze and control energy cost and consumption, identify anomalies, and inform decision making for energy efficiency.
+
+**Interval Meter Analytics** : Automate the capture of high-resolution meter data and leverage sophisticated analytics and workflow tools, so your organization can drive efficiency and decarbonize across facilities.
+
+**Sustainability Program Tracking** : Manage your organization’s sustainability programs in a consistent and transparent manner to track progress, verify results and optimize investment decisions.
+
 
 ## 2 Data Management
 
@@ -120,46 +141,152 @@ Here the primary field is `Distance Travelled (qty)` and secondary fields are `C
 ![](/labs/images/114-account-style.png)
 
 
+
 ## 3 Data capture 
 
-In Envizi, you can create Group, Subgroup, Location, Accounts, Record and etc via several ways.
+There are several ways available in Envizi to create Group, Subgroup, Location, Account and Record (Data). 
+
 
 ### 3.1 Create Data via UI
 
-You can create data via Envizi User Interface.
+Using Envizi User Interface the data capture can be done.
 
-Refer the documentations
+#### Create Group
+
+1. Click on `Manage > Groups` 
+<img src="![](/labs/images/01-group1.png)
+
+It shows the Groups page.
+
+2. Click on `Create New Group` button.
+
+<img src="![](/labs/images/01-group2.png)
+
+3. Fill in the details as below. 
+
+- Group Type :  `Classification`
+- Belongs To : The Org name of the account. Here `Demo Corp D1`
+- Name :  Give any name for the Group. Ex: `G1-Telco`
+- Report Percent :  100
+
+4. Click on `Save` button.
+<img src="![](/labs/images/01-group3.png)
+
+A new Group called `G1-Telco` gets created.
+
+#### Create Location
+
+Similarly location can be created by clicking on `Manage > Location`.
+
+
+#### Create Account
+
+Similarly account can be created by clicking on `Manage > Account` 
+
+#### Create Records (Data)
+
+1. Select an account from the left panel. 
+
+<img src="![](/labs/images/06-load-account-data11.png)
+
+Account summary get displayed as below.
+
+2. Click on `Track > Records` 
+
+<img src="![](/labs/images/06-load-account-data12.png)
+
+3. Click on `Capture > Data` 
+
+<img src="![](/labs/images/06-load-account-data13.png)
+
+4. Fill in the details as below. 
+- Start Period : Enter the starting period of the data
+- End Period : Enter the ending period of the data
+- Total Electricity :  Enter the total electricity consumed
+- Total Cost :  Enter the total cost
+
+The total value would split across each month available in between the given period.
+
+5. Click on `Save` button.
+
+<img src="![](/labs/images/06-load-account-data14.png)
+
+The record should be saved successfully.
+
+For the detailed explanations refer the documentation
 https://community.ibm.com/community/user/envirintel/blogs/jeya-gandhi-rajan-m1/2023/04/04/create-orghierarchy-and-load-data-in-envizi-via-ui
-
-https://knowledgebase.envizi.com/home/manually-capturing-data-records
 
 ### 3.2 Create Data via Universal Data Collector
 
-You can create data via Universal Data Collector template available in excel.
+Envizi allows to Create Group, Location, Account and Records via the excel file upload.
 
-Refer the documentation
+#### Create Groups and Locations
 
-https://knowledgebase.envizi.com/home/universal-account-setup-and-data-loading-process
+Let us create groups and locations.
 
-https://knowledgebase.envizi.com/home/data-flow-automation
+1. Download the sample file [Envizi_SetupConfig_G3.xlsx](./files/Envizi_SetupConfig_G3.xlsx). The content looks like this.
+<img src="![](/labs/images/image-11.png)
 
+2. Update the file as per your requirement.
+
+3. Click on `Manage > Upload files` to upload the file.
+
+The file get processed and the Group and Locations gets created.
+
+#### Account Setup and Data Load
+
+Let us create accounts and data.
+
+Need to download the Template file from Envizi Report.
+
+1. Search for `Account Setup and Data Load` in Reports
+
+<img src="![](/labs/images/image-111.png)
+
+2. Open the report
+
+<img src="![](/labs/images/image-112.png)
+
+3. Choose the following 
+
+- Filter By #1:  Export selected locations with or without records
+- Filter By #2:  Choose an account style as per your need
+- Starting with: Choose some start date from which data exists in your envizi environment.
+
+4. Click on `Submit`
+
+<img src="![](/labs/images/image-113.png)
+
+Report is displayed on the screen.
+
+5. Click on `DOWNLOAD AS CSV`
+
+<img src="![](/labs/images/image-114.png)
+
+You may get the csv file as like this.
+
+<img src="![](/labs/images/image-115.png)
+
+6. Rename the downloaded file into `Account_Setup_and_Data_Load_xxxxx.csv`
+
+7. Remove the unwanted records
+
+8. Add or update as per your requirement. 
+
+9. Click on `Manage > Upload files` to upload the file.
+
+The file get processed and the Accounts and data gets created.
 
 ### 3.3 Bulk Creation and Scheduling of Data Capture Issues
 
-Envizi provides Data Capture Issues as a way to request manual data capture for accounts. By using Data Capture Issues, you get the benefits of Envizi’s Issue Tracking and workflow tools to be able to easily track responses to data capture requests and follow up overdue requests.
+Envizi provides Data Capture Issues as a way to request manual data capture for accounts.
 
-Refer the documentation
-https://knowledgebase.envizi.com/home/data-capture-issues
+For each data capture activity, users will be notified by e-mail. 
+Clicking on the `View Issue` button in the e-mail brings up a browser window with details of this particular data capture item. 
+The user can update the item.
+Clicking on the `Capture Data` button brings up the survey to complete.
 
 
-## 4 Reports
-
-There are 4 types of reports available in Envizi.
-- Dashboards
-- Power Reports – PowerBI Standard Content
-- Extract Reports
-- Envizi API
-	
 ## 4.1 Dashboards
 
 Dashboards are interactive pages that allow the reporting and display of data in a visual format.
